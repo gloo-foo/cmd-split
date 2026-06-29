@@ -4,9 +4,10 @@ import (
 	"slices"
 	"testing"
 
-	split "github.com/gloo-foo/cmd-split/alias"
 	gloo "github.com/gloo-foo/framework"
 	"github.com/gloo-foo/testable"
+
+	split "github.com/gloo-foo/cmd-split/alias"
 )
 
 // The alias package re-exports the split constructor, the Delim flag type, and
